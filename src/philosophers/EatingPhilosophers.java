@@ -2,6 +2,7 @@ package philosophers;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
+
 public class EatingPhilosophers {
     private static final int NUMBERS_OF_PHILOSOPHERS = 5;
     private static final int NUMBER_OF_MEALS_PER_PHILOSOPHER = 3;

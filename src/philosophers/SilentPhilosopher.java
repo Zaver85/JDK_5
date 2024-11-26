@@ -1,6 +1,7 @@
 package philosophers;
 
 import java.util.concurrent.locks.Lock;
+
 public class SilentPhilosopher implements Runnable {
     private final int id;
     private final Lock leftFork;
